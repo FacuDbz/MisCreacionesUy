@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Mis Creaciones</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="popUp">
+    <div class="modal">
+      <div id="primerModal">
+        <label for="input1">Que palabra te describe más?</label>
+        <select id="input1">
+          <option value="Suave" selected>Suave</option>
+          <option value="Crocante">Crocante</option>
+        </select>
+        <button class="botonComprar" id="primerBotonModal">Continuar</button>
+      </div>
+
+      <div id="segundoModal">
+        <label for="input2">Cuál es tu sabor favorito?</label>
+        <select id="input2">
+          <option value="Frutal">Frutal</option>
+          <option value="Caramelo">Caramelo</option>
+          <option value="Café">Café</option>
+          <option value="Chocolate" selected>Chocolate</option>
+        </select>
+        <button id="segundoBotonModal" class="botonComprar">Continuar</button>
+      </div>
+
+      <div id="tercerModal">
+        <label for="input3">Tenés alguna restricción alimenticia?</label>
+        <select id="input3">
+          <option value="No apto" selected>No</option>
+          <option value="Vegano">Soy vegan@</option>
+          <option value="Celíaco">Soy celíac@</option>
+        </select>
+        <button id="tercerBotonModal" class="botonComprar">Continuar</button>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="Logo Mis Creaciones" /></a>
+      </div>
+      <div class="navLateral">
+        <a href="index.html">HOME</a>
+        <a href="catalogo.html">CATÁLOGO</a>
+        <a href="carrito.html">CARRITO</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="heroBanner">
+    <div class="heroMain">
+
+      <div class="sliderFondo">
+        <div id="carruselDeImagenes">
+          <img src="img/postres/crocanteDeCafe/croc2.webp" alt="Alfajor" />
+          <img src="img/postres/brownie/brownie.webp" alt="Brownie" />
+          <img src="img/postres/chaja/chaja.webp" alt="Chaja" />
+          <img src="img/postres/chaja/chaja.webp" alt="Cheesecake" />
+          <img src="img/postres/lemonPie/lemonpie.webp" alt="Lemon Pie" />
+          <img src="img/postres/flan/flan.webp" alt="Flan" />
+        </div>
+      </div>
+
+      <div class="heroContenido">
+        <div class="degrade izqBlanco"></div>
+        <img class="logoMain" src="img/logo.png" alt="Logo Mis Creaciones" />
+        <h1>Mis Creaciones</h1>
+        <p>Endulzá tus momentos</p>
+        <a class="btn" href="">VER MÁS</a>
+        <div class="degrade derBlanco"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="oferta">
+    <div id="oferta"></div>
+  </section>
+
+  <section id="sobreMi">
+    <article>
+      <h2>Quién soy?</h2>
+      <p>
+        Mi nombre es <strong>Verónica Sosa</strong> y hace más de <strong>15 años</strong> que me dedico con pasión a la repostería artesanal. Lo que comenzó como un pasatiempo en mi cocina familiar, hoy es un emprendimiento que me permite compartir lo que más amo: endulzar momentos con sabor casero.
+      </p>
+    </article>
+    <img src="img/veroSinFondo.jpg" alt="Verónica Sosa" />
+  </section>
+
+  <section id="articulosHome">
+    <h2>Algunos de mis productos</h2>
+    <div id="productosDisplay"></div>
+  </section>
+
+  <footer>
+    <div class="footerContainer">
+      <div class="footerLogo">
+        <img src="img/logo.png" alt="Logo Mis Creaciones" />
+      </div>
+      <div class="footerLinks">
+        <a href="index.html">Home</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="#">Carrito</a>
+        <a href="#sobreMi">Sobre mí</a>
+      </div>
+      <div class="footerInfo">
+        <p>© 2025 Mis Creaciones. Todos los derechos reservados.</p>
+        <p>Hecho con amor por Verónica Sosa</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html>

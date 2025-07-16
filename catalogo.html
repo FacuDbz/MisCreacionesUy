@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"> <img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="navLateral">
+                <a href="index.html">HOME</a>
+                <a href="">CATÁLOGO</a>
+                <a href="carrito.html">CARRITO</a>
+            </div>
+        </nav>
+    </header>
+    <section id="catalogoEstilos">
+        <div id="inputsParaCatalogo">
+            <h2>Qué estás buscando?</h2>
+            <div>
+            <label for="buscadorTexto"></label>
+            <input id="buscadorTexto" type="text" placeholder="Ingresa el postre que estás buscando">
+            <label for="vegano">Vegano?</label>
+            <input type="checkbox" id="vegano">
+            <label for="celiaco">Celíaco?</label>
+            <input type="checkbox" id="celiaco">
+            </div>
+        </div>
+        <div id="catalogo"></div>
+    </section>
+    <footer>
+    <div class="footerContainer">
+        <div class="footerLogo">
+            <img src="img/logo.png" alt="Logo Mis Creaciones">
+        </div>
+        <div class="footerLinks">
+            <a href="index.html">Home</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="#">Carrito</a>
+            <a href="#sobreMi">Sobre mí</a>
+        </div>
+        <div class="footerInfo">
+            <p> © 2025 Mis Creaciones. Todos los derechos reservados.</p>
+            <p>Hecho con amor por Verónica Sosa</p>
+        </div>
+    </div>
+</footer>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/filtros.js"></script>
+</body>
+</html>
